@@ -1,0 +1,8 @@
+body {
+  padding-top: 60px;
+}
+
+.active {
+  font-weight: 700;
+  color: rgb(0.882, 0.059, 254.128);
+}

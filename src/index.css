@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.row {
+  @apply flex flex-wrap px-4 py-8 items-center;
+}
+
+.btn {
+  @apply text-blue-500 hover:text-blue-700;
+}
+
+.main:hover .btn {
+  opacity: 100%;
+  transform: translateY(-3rem);
+}
