@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://0marghorab.github.io/E-Commerce-WebApp/",
+  "homepage": "https://0marghorab.github.io/E-commerce-webapp/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
