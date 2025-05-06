@@ -25,8 +25,8 @@ export default function CategorySlider() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 2,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     autoplay: true,
   };
 
@@ -39,7 +39,7 @@ export default function CategorySlider() {
       <h2 className="text-gray-700 text-xl font-bold p-2">
         Popular Categories
       </h2>
-      <div className="w-8/12 mx-auto">
+      <div className="lg:w-6/12 mx-auto w-11/12">
         <Slider {...settings}>
           {categories.map((category) => (
             <>

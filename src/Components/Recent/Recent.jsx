@@ -28,7 +28,7 @@ export default function Recent() {
         {recentProducts.map((product) => (
           <div
             key={product.id}
-            className="w-full md:w-1/2 lg:w-1/4 p-4 relative"
+            className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4 relative"
           >
             <Link to={`/productdetails/${product.id}`}>
               <div className="product py-4 px-6 shadow-2xl rounded-2xl">
